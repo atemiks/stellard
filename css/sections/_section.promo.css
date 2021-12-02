@@ -1,0 +1,40 @@
+.section-promo {
+    margin: 0;
+    padding: 80px 0 30px;
+    background-color: #e0e1e0;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+@media (min-width: 750px) {
+    .section-promo {
+        padding-top: 125px;
+        padding-bottom: 0;
+    }
+
+    .section-promo .promo-typography-container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .section-promo .promo-media-figure {
+        margin: 0;
+        text-align: center;
+    }
+}
+
+@media (min-width: 970px) {
+    .section-promo {
+        padding-top: 185px;
+        padding-bottom: 0;
+    }
+}
+
+@media (min-width: 1680px) {
+    .section-promo {
+        padding-top: 155px;
+        padding-bottom: 0;
+    }
+}

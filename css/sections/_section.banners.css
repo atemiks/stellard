@@ -1,0 +1,39 @@
+.section-banners {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.banners-grid {
+    margin-bottom: -20px;
+}
+
+.banners-grid .banner-item {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 970px) {
+    .section-banners {
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
+    .banners-grid {
+        margin-bottom: -30px;
+    }
+
+    .banners-grid .banner-item {
+        -webkit-display: flex;
+        -ms-display: flex;
+        display: flex;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 1680px) {
+    .section-banners {
+        margin-top: 95px;
+        margin-bottom: 95px;
+    }
+}

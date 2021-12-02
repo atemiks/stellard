@@ -1,0 +1,37 @@
+.footer-contact-box {
+    margin-bottom: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.footer-contact {
+    border: none;
+    color: #95a4ab;
+}
+
+.footer-contact-phone {
+    font-size: 17px;
+    color: #575e60;
+}
+
+@media (min-width: 480px) {
+    .footer-contact-box {
+        text-align: left;
+    }
+}
+
+@media (min-width: 750px) {
+    .footer-contact-box {
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .footer-contact-box {
+        margin-bottom: 10px;
+    }
+
+    .footer-contact-phone {
+        font-size: 20px;
+    }
+}

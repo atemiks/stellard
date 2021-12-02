@@ -1,0 +1,147 @@
+.section-reviews {
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+.section-reviews .section-title {
+    margin: 0;
+}
+
+.reviews-categories-box {
+    overflow: hidden;
+    margin: 0 0 20px;
+}
+
+.reviews-categories-box .reviews-categories-title {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    font-weight: 700;
+}
+
+
+.reviews-info-box {
+    margin: 0 0 35px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.reviews-info-grid {
+    margin-bottom: -8px;
+}
+
+.reviews-info-grid .review-info-item {
+    margin-bottom: 8px;
+}
+
+.reviews-list {
+    margin-bottom: -5px;
+}
+
+.reviews-list .review-item {
+    margin-bottom: 25px;
+}
+
+.reviews-average-rating,
+.reviews-total {
+    min-width: 42px;
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 15px;
+}
+
+.reviews-average-rating {
+    min-height: 40px;
+    padding: 15px 5px 5px;
+    background: url('../../images/icons/svg/icon-star-solid.svg') no-repeat center center;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+.review-add-btn {
+    padding: 12px 10px;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.review-add-btn i,
+.review-add-btn img {
+    width: 20px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+@media (min-width: 480px) {
+    .section-reviews {
+        margin-top: 65px;
+        margin-bottom: 60px;
+    }
+
+    .section-reviews .section-header {
+        margin-bottom: 10px;
+    }
+
+    .reviews-info-box {
+        margin: 0 0 20px;
+    }
+
+    .reviews-info-grid,
+    .reviews-info-grid .review-info-item {
+        margin-bottom: 0;
+    }
+
+    .reviews-list .review-item {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 750px) {
+    .section-reviews {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .reviews-info-grid {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .reviews-info-grid .review-info-item {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .reviews-list {
+        margin-bottom: -20px;
+    }
+
+    .review-add-btn {
+        padding: 16px 12px;
+    }
+
+    .review-add-btn i,
+    .review-add-btn img {
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 970px) {
+    .section-reviews {
+        margin-top: 90px;
+        margin-bottom: 90px;
+    }
+
+    .section-reviews .section-header {
+        margin-bottom: 20px;
+    }
+
+    .reviews-info-box {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .reviews-info-grid .review-info-item {
+        margin-bottom: 15px;
+    }

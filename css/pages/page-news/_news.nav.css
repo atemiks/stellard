@@ -1,0 +1,15 @@
+.news-nav {
+    margin: 15px 0;
+}
+
+@media (min-width: 480px) {
+    .news-nav {
+        margin: 20px 0;
+    }
+}
+
+@media (min-width: 750px) {
+    .news-nav {
+        margin: 35px 0;
+    }
+}

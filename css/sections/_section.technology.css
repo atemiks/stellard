@@ -1,0 +1,142 @@
+.section-technology {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.section-technology .section-typography-container {
+    margin-bottom: 20px;
+}
+
+.section-technology .section-media-figure {
+    max-width: 256px;
+    margin: 0 0 20px;
+}
+
+.section-technology .section-description {
+    margin-bottom: 25px;
+}
+
+
+.technology-box {
+    margin: 0 -15px;
+    padding: 20px 15px;
+    background-color: #f4f7f9;
+}
+
+.technology-box .technology-header {
+    margin-bottom: 15px;
+}
+
+.technology-box .technology-title {
+    margin: 0 0 15px;
+    line-height: 30px;
+}
+
+.technology-box .technology-list {
+    margin: 0 -15px -22px;
+}
+
+.technology-box .technology-list .technology-item {
+    margin-bottom: 22px;
+}
+
+@media (min-width: 480px) {
+    .section-technology {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .technology-box {
+        margin: 0;
+        padding: 20px 15px;
+        border-radius: 10px;
+    }
+
+    .technology-box .technology-list {
+        margin: 0 -15px -15px;
+    }
+
+    .technology-box .technology-list .technology-item {
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 750px) {
+    .section-technology {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .section-technology .section-main-container,
+    .section-technology .section-typography-container {
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 970px) {
+    .section-technology .section-media-figure {
+        margin: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .section-technology {
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
+    .section-technology  .section-main-container {
+        margin-bottom: 60px;
+    }
+
+    .section-technology .section-typography-container {
+        margin-bottom: 0;
+    }
+
+    .section-technology .section-description {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+
+    .technology-box {
+        padding: 25px 20px;
+    }
+
+    .technology-box .technology-header {
+        margin-bottom: 20px;
+    }
+
+    .technology-box .technology-list {
+        margin: 0 -15px -30px;
+    }
+
+    .technology-box .technology-list .technology-item {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 1680px) {
+    .section-technology {
+        margin-top: 85px;
+        margin-bottom: 85px;
+    }
+
+    .section-technology .section-description {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .technology-box {
+        padding: 40px 40px;
+        background-color: #f4f7f9;
+    }
+
+    .technology-box .technology-header {
+        margin-bottom: 40px;
+    }
+
+    .technology-box .technology-title {
+        margin: 0 0 30px;
+    }
+}

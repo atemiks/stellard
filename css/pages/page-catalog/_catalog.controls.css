@@ -1,0 +1,35 @@
+.catalog-controls-box {
+    margin: 0 0 15px;
+}
+
+.catalog-controls-box .form-group {
+    margin-bottom: 5px;
+}
+
+.catalog-controls-box .catalog-filter-label {
+    margin: 0 5px 0 0;
+}
+
+@media (min-width: 480px) {
+    .catalog-controls-box {
+        margin: 0 0 10px;
+    }
+}
+
+@media (min-width: 750px) {
+    .catalog-controls-box .catalog-filter-label {
+        margin: 0;
+    }
+}
+
+@media (min-width: 970px) {
+    .catalog-controls-box {
+        margin: 0 0 5px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .catalog-controls-box {
+        margin: 0 0 15px;
+    }
+}

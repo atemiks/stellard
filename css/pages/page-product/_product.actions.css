@@ -1,0 +1,125 @@
+.product-actions-box {
+    margin: 0 -15px 50px;
+}
+
+.product-actions-list {
+    margin-bottom: -15px;
+}
+
+.product-actions-list .product-action-item {
+    margin-bottom: 15px;
+}
+
+.product-action-button {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: none;
+    color: #95a4ab;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.product-action-button .product-action-thumbnail {
+    position: relative;
+    margin-bottom: 15px;
+    width: 30px;
+    height: 30px;
+    color: #61696b;
+    font-size: 28px;
+}
+
+.product-action-button:hover {
+    color: #dd4400;
+}
+
+.product-action-button:hover .product-action-thumbnail {
+    color: inherit;
+}
+
+
+.product-action-button.product-action-favourite.active .product-action-thumbnail {
+    color: #ffc953;
+}
+
+.product-action-button.product-action-favourite.active .product-action-thumbnail::before {
+    content: '\e914';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-display: flex;
+    -ms-display: flex;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #dd4400;
+    transform: translate(25%, -35%);
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 8px;
+    line-height: 1;
+}
+
+@media (min-width: 480px) {
+    .product-actions-box {
+        margin: 0 0 35px;
+    }
+
+    .product-action-button .product-action-thumbnail {
+        margin: 0 15px 0 0;
+    }
+}
+
+@media (min-width: 750px) {
+    .product-actions-box {
+        margin: 0 0 65px;
+    }
+}
+
+@media (min-width: 970px) {
+    .product-action-button {
+        font-size: 12px;
+    }
+
+    .product-action-button .product-action-thumbnail {
+        margin: 0 0 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .product-actions-box {
+        margin: 0 0 35px;
+    }
+
+    .product-action-button {
+        font-size: 14px;
+        line-height: 15px;
+    }
+}
+
+@media (min-width: 1680px) {
+    .product-actions-box {
+        max-width: 80px;
+        margin: 35px 0 35px auto;
+    }
+
+    .product-actions-list {
+        margin-bottom: -35px;
+    }
+
+    .product-actions-list .product-action-item {
+        margin-bottom: 35px;
+    }
+
+    .product-action-button {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

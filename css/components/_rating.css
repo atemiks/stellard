@@ -1,0 +1,22 @@
+.rating-list {
+    margin-right: 15px;
+    color: #f6c65c;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.rating-list .rating-item {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.rating-total {
+    border: none;
+    color: #95a4ab;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.rating-total:hover {
+    color: #dd4400;
+}

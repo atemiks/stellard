@@ -1,0 +1,52 @@
+.nav-aside {
+    padding: 10px 15px 10px 20px;
+    border-radius: 4px;
+    background-color: #ffc953;
+    line-height: 20px;
+}
+
+.nav-aside .nav-link {
+    position: relative;
+    display: block;
+    padding: 8px 0;
+    border: none;
+}
+
+.nav-aside .nav-link::before {
+    display: none;
+    position: absolute;
+    top: 14px;
+    left: 0;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #4e4d53;
+    content: '';
+}
+
+.nav-aside .nav-link.active {
+    padding-left: 15px;
+    font-weight: 700;
+}
+
+.nav-aside .nav-link.active::before {
+    display: block;
+}
+
+@media (min-width: 1200px) {
+  
+}
+
+@media (min-width: 1680px) {
+    .nav-aside {
+        padding: 15px 15px 10px 20px;
+    }
+
+    .nav-aside .nav-link {
+        padding: 15px 0;
+    }
+
+    .nav-aside .nav-link::before {
+        top: 20px;
+    }
+}

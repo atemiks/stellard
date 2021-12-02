@@ -1,0 +1,105 @@
+.page-warranty .section-contact {
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+.page-warranty .section-contact .contact-grid {
+    margin-bottom: 10px;
+}
+
+.page-warranty .section-contact .contact-grid .contact-item {
+    margin-bottom: 20px;
+}
+
+.page-warranty .section-contact .contact-block {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.page-warranty .section-contact .contact-block .contact-subtitle {
+    margin: 0;
+}
+
+.page-warranty .section-contact .map-box {
+    margin-bottom: 0;
+}
+
+.warranty-contact-box {
+    margin: 15px 0 30px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.warranty-contact-box a {
+    border: none;
+    color: #dd4400;
+    font-weight: 700;
+}
+
+@media (min-width: 480pc) {
+    .page-warranty .section-contact {
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+
+    .page-warranty .section-contact .contact-grid {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 750px) {
+    .page-warranty .section-contact {
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+
+    .page-warranty .section-contact .contact-grid {
+        margin-bottom: 30px;
+    }
+
+    .warranty-contact-box {
+        margin: 25px 0 40px;
+    }
+}
+
+@media (min-width: 970px) {
+    .page-warranty .contact-block .contact-working-hours-box::after {
+        display: none;
+    }
+
+    .page-warranty .section-contact .map-box {
+        margin: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .page-warranty .section-contact {
+        margin-top: 100px;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1680px) {
+    .page-warranty .section-contact {
+        margin-top: 100px;
+        margin-bottom: 0;
+    }
+
+    .page-warranty .section-contact .contact-grid {
+        margin-bottom: -25px;
+    }
+
+    .page-warranty .section-contact .contact-grid .contact-item {
+        margin-bottom: 25px;
+    }
+
+    .page-warranty .section-contact .section-title {
+        margin: 0 0 40px;
+    }
+
+    .warranty-contact-box {
+        margin: 40px 0 70px;
+        font-size: 25px;
+        line-height: 25px;
+    }
+}

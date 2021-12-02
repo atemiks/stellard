@@ -1,0 +1,36 @@
+.favorites-nav .nav-link::before {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (min-width: 970px) {
+    .favorites-nav {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .favorites-nav .nav-link {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .favorites-nav .nav-link {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+}
+
+@media (min-width: 1680px) {
+    .favorites-nav {
+        margin-top: -15px;
+        margin-bottom: -15px;
+        font-size: 15px;
+    }
+
+    .favorites-nav .nav-link {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+}

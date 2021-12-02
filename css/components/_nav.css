@@ -1,0 +1,152 @@
+.nav-link {
+    display: inline;
+    padding: 0;
+}
+
+.nav-tabs {
+    margin: 0 -9px 8px;
+    border: none;
+}
+
+.nav-tabs .nav-item {
+    margin: 0 9px;
+}
+
+.nav-tabs .nav-link {
+    position: relative;
+    display: block;
+    padding: 0 0 0 10px;
+    border: none;
+    border-radius: 0;
+    color: #95a4ab;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 27px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-tabs .nav-link::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #ffc953;
+    transform: translateY(-50%);
+    white-space: nowrap;
+}
+
+.nav-tabs .badge {
+    position: relative;
+    top: -6px;
+    min-width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    color: inherit;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+.nav-tabs .nav-link:hover {
+    color: #dd4400;
+}
+
+.nav-tabs .nav-link.active {
+    font-weight: 700;
+}
+
+.nav-tabs .nav-link.active::before {
+    background-color: #95a4ab;
+}
+
+.nav-tabs .nav-link.active:hover {
+    color: #495057;
+}
+
+.nav-pills {
+    margin-left: -3px;
+    margin-right: -3px;
+}
+
+.nav-pills .nav-link {
+    margin: 5px 3px;
+    padding: 12px 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f4f7f9;
+    color: #95a4ab;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+}
+
+.nav-pills .nav-link.active, 
+.nav-pills .show > .nav-link {
+    background-color: #ffc953;
+    color: #383f42;
+}
+
+@media (min-width: 480px) {
+    .nav-tabs {
+        margin-bottom: 15px;
+    }
+
+    .nav-tabs .nav-link {
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .nav-pills {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+
+    .nav-pills .nav-link {
+        margin: 5px;
+        padding: 15px;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 750px) {
+    .nav-tabs .nav-link {
+        padding: 0 0 0 13px;
+        font-size: 15px;
+        line-height: 27px;
+    }
+
+    .nav-pills .nav-link {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .nav-tabs .nav-link {
+        line-height: 25px;
+    }
+
+    .nav-pills .nav-link {
+        padding: 15px 20px;
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 1680px) {
+    .nav-tabs {
+        margin-bottom: 20px;
+    }
+
+    .nav-pills .nav-link {
+        padding: 19px 25px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+}

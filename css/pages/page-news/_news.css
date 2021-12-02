@@ -1,0 +1,34 @@
+.page-news .breadcrumb-box {
+    position: absolute;
+    z-index: 9;
+    top: 74px;
+    width: 100%;
+}
+
+@media (min-width: 750px) {
+    .page-news {
+        padding-top: 0;
+    }
+
+    .page-news .header-box {
+        position: fixed;
+    }
+
+    .page-news .breadcrumb-box {
+        position: absolute;
+        top: 74px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 970px) {
+    .page-news .breadcrumb-box {
+        top: 120px;
+    }
+}
+
+@media (min-width: 1680px) {
+    .page-news .breadcrumb-box {
+        top: 85px;
+    }
+}

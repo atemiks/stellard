@@ -1,0 +1,123 @@
+.section-care {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-color: #a8837f;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.care-headline {
+    margin: 0 0 15px;
+}
+
+.care-box {
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+}
+
+.care-list {
+    position: relative;
+    counter-reset: care-counter;
+    margin-bottom: -25px;
+}
+
+.care-list .care-item {
+    position: relative;
+    margin-bottom: 25px;
+    padding: 0 0 0 55px;
+}
+
+.care-list .care-item::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-display: flex;
+    -ms-display: flex;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border: 3px solid #eaf0f3;
+    border-radius: 50%;
+    background-color: #ffc953;
+    counter-increment: care-counter;
+    content: counter(care-counter);
+    font-size: 17px;
+    color: #000000;
+    line-height: 1;
+}
+
+@media (min-width: 480px) {
+    .section-care {
+        padding-top: 35px;
+        padding-bottom: 40px;
+    }
+
+    .care-box {
+        padding: 25px;
+    }
+}
+
+@media (min-width: 750px) {
+    .section-care {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .care-headline {
+        margin: 0 0 20px;
+    }
+
+    .care-box {
+        padding: 30px 25px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .section-care {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
+
+@media (min-width: 1680px) {
+    .section-care {
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+
+    .care-headline {
+        margin: 0 0 30px;
+    }
+
+    .care-box {
+        padding: 40px 40px 50px;
+    }
+
+    .care-list {
+        margin-bottom: -30px;
+    }
+
+    .care-list .care-item {
+        margin-bottom: 30px;
+        padding: 0 0 0 70px;
+    }
+
+    .care-list .care-item::before {
+        width: 50px;
+        height: 50px;
+        border-width: 5px;
+        font-size: 17px;
+    }
+}

@@ -1,0 +1,274 @@
+.section-hero {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    background-color: #f7f4f1;
+}
+
+.section-hero .section-hero-inner {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.section-hero .section-media-figure {
+    position: relative;
+    margin: 0 0 10px;
+}
+
+.section-hero .section-media-label {
+    position: absolute;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    padding: 5px;
+    background: #83372a url('../../uploads/section-hero/section-hero-label.png') no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 9px;
+    text-align: center;
+}
+
+.section-hero .section-media-label strong {
+    display: block;
+    font-size: 27px;
+    line-height: .8;
+}
+
+.section-hero .section-media {
+    max-width: 140%;
+}
+
+.hero-title {
+    margin: 0 0 25px;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.hero-achievements-grid {
+    margin-bottom: 10px;
+}
+
+.hero-achievements-grid .achievement-item {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 480px) {
+    .section-hero .section-hero-inner {
+        padding-top: 35px;
+        padding-bottom: 40px;
+    }
+
+    .section-hero .section-media-figure {
+        margin: -20px 0 10px;
+    }
+
+    .section-hero .section-media {
+        max-width: 505px;
+    }
+
+    .section-hero .section-media-label {
+        left: auto;
+        right: 30px;
+        width: 90px;
+        height: 90px;
+        font-size: 13px;
+        line-height: 13px;
+    }
+
+    .section-hero .section-media-label strong {
+        font-size: 37px;
+    }
+
+    .hero-title {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .hero-achievements-grid {
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 750px) {
+    .section-hero .section-hero-inner {
+        min-height: 500px;
+        padding-top: 70px;
+        padding-bottom: 40px;
+    }
+
+    .section-hero .section-media-container {
+        position: absolute;
+        top: 0;
+        height: 100%;
+    }
+
+    .section-hero .section-media-container::before,
+    .section-hero .section-media-container::after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        top: 0;
+    }
+
+    .section-hero .section-media-container::before {
+        width: 50vw;
+        height: 100%;
+        left: 50%;
+        background-color: #fff;
+
+    }
+
+    .section-hero .section-media-container::after {
+        left: -33.3333%;
+        width: 50vw;
+        height: 100%;
+        background: no-repeat url('../../images/section-hero/section-hero-media-bg.png') 0 0;
+        -webkit-background-size: auto 100%;
+        background-size: auto 100%;
+    }
+
+    .section-hero .section-media-figure {
+        margin: 0 0 130px 110px;
+    }
+
+    .section-hero .section-media-label {
+        top: -5px;
+        left: 85px;
+        right: auto;
+    }
+
+    .section-hero .section-media {
+        max-width: 515px;
+        max-height: 300px;
+    }
+
+    .hero-title {
+        position: relative;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .hero-title::before {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        top: -90px;
+        left: -72px;
+        width: 130px;
+        height: 165px;
+        background: no-repeat url('../../images/pattern-honeycombs.png') 0 0;
+        -webkit-background-size: contain;
+        background-size: contain;
+    }
+
+    .hero-achievements-grid {
+        margin-bottom: 25px;
+    }
+}
+
+@media (min-width: 970px) {
+    .section-hero .section-hero-inner {
+        min-height: 665px;
+        padding-top: 165px;
+        padding-bottom: 60px;
+    }
+
+    .section-hero .section-media-figure {
+        margin: 50px 0 0 160px;
+    }
+
+    .section-hero .section-media-label {
+        top: 5px;
+        left: 105px;
+    }
+
+    .section-hero .section-media {
+        max-width: 660px;
+        max-height: 380px;
+    }
+
+
+    .hero-title {
+        margin: 0 0 30px;
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .hero-achievements-grid {
+        margin-bottom: 5px;
+    }
+
+    .hero-achievements-grid .achievement-item {
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .section-hero .section-hero-inner {
+        min-height: 700px;
+        padding-top: 190px;
+    }
+
+    .section-hero .section-media-figure {
+        margin: 40px 0 0;
+    }
+
+    .section-hero .section-media-label {
+        top: -5px;
+        left: 190px;
+    }
+
+    .section-hero .section-media {
+        max-width: 755px;
+        max-height: 443px;
+    }
+
+
+    .hero-title {
+        margin: 0 0 55px;
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .hero-achievements-grid {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 1680px) {
+    .section-hero .section-hero-inner {
+        min-height: 800px;
+    }
+
+    .section-hero .section-media {
+        max-width: 1042px;
+        max-height: 597px;
+    }
+
+    .section-hero .section-media-label {
+        top: 20px;
+        left: 250px;
+        width: 120px;
+        height: 120px;
+        font-size: 17px;
+        line-height: 17px;
+    }
+
+    .section-hero .section-media-label strong {
+        font-size: 50px;
+    }
+
+    .hero-title {
+        margin: 0 0 45px;
+        font-size: 45px;
+        line-height: 50px;
+    }
+}

@@ -1,0 +1,42 @@
+.card-store {
+    padding: 15px 20px;
+    border: 2px solid #eaf0f3;
+    border-radius: 4px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.card-store-title {
+    margin: 5px 0 10px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.card-store-battery {
+    width: 60px;
+    height: 26px;
+    margin: 0 0 10px;
+    padding: 3px 6px;
+    border-radius: 4px;
+    background-color: #eaf0f3;
+}
+
+.card-store-battery span {
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin: 0 -1px;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    background-color: #fe862f;
+    
+}
+
+.card-store-battery span ~ span {
+    background-color: #fece2f;
+}
+
+.card-store-quantity {
+    font-size: 15px;
+    font-weight: 700;
+}

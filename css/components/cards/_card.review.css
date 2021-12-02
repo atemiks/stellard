@@ -1,0 +1,158 @@
+.card-review {
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background-color: #f4f7f9;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.card-review::after {
+    content: '\201c';
+    position: absolute;
+    top: -16px;
+    left: 8px;
+    color: #fece2f;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -7px;
+}
+
+.card-review-thumbanil {
+    position: relative;
+    max-width: 200px;
+    margin: 0 auto 5px;
+}
+
+.card-review-thumbanil-link {
+    display: block;
+    padding-bottom: 100%;
+    border: none;
+}
+
+.card-review-thumbanil .card-review-media {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+
+.card-review-price {
+    margin: 0 0 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.card-review-title {
+    margin: 0 0 5px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.card-review-name {
+    margin: 0 0 10px;
+    color: #383f42;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+}
+
+.card-review-rating-box,
+.card-review-date {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 5px;
+}
+
+.card-review-date {
+    color: #6a6d6f;
+    font-size: 15px;
+}
+
+.card-review-media-grid {
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.card-review-media-grid .card-review-media-item {
+    margin-bottom: 10px;
+}
+
+.card-review-media-grid .card-review-media {
+    display: block;
+    width: 100%;
+    max-width: 80px;
+    border: none;
+}
+
+.card-review-media-grid .card-review-img {
+    width: inherit;
+}
+
+/* card review alt */
+.card-review.card-review-alt .card-review-name {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 15px 5px 0;
+    font-weight: 400;
+}
+
+@media (min-width: 480px) {
+    .card-review {
+        padding: 30px 25px 30px;
+    }
+
+    .card-review-thumbanil {
+        max-width: none;
+    }
+
+    .card-review-price {
+        margin: 0;
+    }
+
+    .card-review-rating-box,
+    .card-review-date {
+        margin: 0 0 10px;
+    }
+}
+
+@media (min-width: 750px) {
+    .card-review {
+        padding: 30px 20px 20px 30px;
+    }
+
+    .card-review-media-grid {
+        max-width: 180px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 970px) {
+    .card-review {
+        padding: 35px 20px 20px 30px;
+    }
+
+    .card-review-rating-box,
+    .card-review-date {
+        margin: 0 0 5px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-review {
+        padding: 30px 20px 20px 30px;
+    }
+}
+
+@media (min-width: 1680px) {
+    .card-review {
+        padding: 35px 20px 20px 30px;
+        font-size: 17px;
+        line-height: 25px;
+    }
+}

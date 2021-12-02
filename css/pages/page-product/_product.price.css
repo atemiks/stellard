@@ -1,0 +1,23 @@
+.product-current-price {
+    margin: 0 0 10px;
+    color: #383f42;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+.product-old-price {
+    margin: 0 0 15px;
+    color: #95a4ab;
+    font-size: 14px;
+    text-decoration: line-through;
+    line-height: 1;
+}
+
+@media (min-width: 1680px) {
+    .product-current-price {
+        margin: 15px 0 15px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+}

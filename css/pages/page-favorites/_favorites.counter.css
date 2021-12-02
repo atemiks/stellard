@@ -1,0 +1,83 @@
+.favorites-counter-box {
+    margin: 0 0 10px;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.favorites-counter-box .favorites-counter {
+    position: relative;
+    z-index: 1;
+    min-width: 130px;
+    min-height: 50px;
+    margin: 0 5px;
+    padding: 0 15px;
+    font-weight: 600;
+    text-align: right;
+    line-height: 50px;
+}
+
+.favorites-counter-box .favorites-counter::before {
+    content: "\e91c";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 50px;
+    color: #fece2f;
+    font-family: 'icomoon';
+    font-size: 50px;
+    line-height: 50px;
+}
+
+
+.favorites-reset-btn {
+    cursor: pointer;
+    position: relative;
+    border: none;
+    border-radius: 0;
+    background: none;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.favorites-reset-btn span {
+    border-bottom: 2px solid #f6c65c;
+}
+
+.favorites-reset-btn i.icon-close {
+    margin-right: 5px;
+    color: #9a9fa1;
+}
+
+.favorites-reset-btn:hover {
+    color: #dd4400;
+}
+
+.favorites-reset-btn:hover span {
+    border-bottom-color: transparent;
+}
+
+.favorites-reset-btn:hover i.icon-close {
+    color: #dd4400;
+}
+
+@media (min-width: 1680px) {
+    .favorites-counter-box {
+        margin: -10px 0 20px;
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .favorites-counter-box .favorites-counter {
+        min-width: 148px;
+        min-height: 60px;
+        line-height: 60px;
+    }
+
+    .favorites-counter-box .favorites-counter::before {
+        height: 60px;
+        font-size: 60px;
+        line-height: 60px;
+    }
+}

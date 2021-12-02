@@ -1,0 +1,83 @@
+.product-colors-box {
+    margin: 0 0 20px;
+}
+
+.product-colors {
+    cursor: default;
+    margin-left: -5px;
+    margin-right: -5px;
+    line-height: 1;
+}
+
+.product-color {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 2px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.product-color::before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    transition: border-color 300ms ease;
+}
+
+.product-color::after {
+    /* add a large clickable area */ 
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+}
+
+.product-color.active::before {
+    border-color: #d2d6d7;
+}
+
+.product-colors-lg .product-color {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.product-colors-lg .product-color::before {
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+}
+
+@media (min-width: 750px) {
+    .product-colors-lg {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    .product-colors-lg .product-color {
+        margin: 10px 8px;
+    }
+}
+
+@media (min-width: 1680px) {
+    .product-colors-lg {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .product-colors-lg .product-color {
+        margin: 10px 10px;
+    }
+}

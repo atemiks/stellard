@@ -1,0 +1,6 @@
+@media (min-width: 1680px) {
+    .favorites-products-grid .product-item {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}

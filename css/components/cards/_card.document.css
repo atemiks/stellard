@@ -1,0 +1,48 @@
+.card-document {
+    display: block;
+    width: 100%;
+    min-height: 80px;
+    padding: 12px 20px 8px 5px;
+    border: none;
+    background-color: #f4f7f9;
+}
+
+.card-document-thumbnail {
+    flex: 0 0 48px;
+    width: 48px;
+    max-width: 48px;
+    margin-right: 10px;
+}
+
+.card-document-media {
+    width: 100%;
+}
+
+.card-document-title {
+    margin: 0;
+    color: #383f42;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.card-document-size {
+    color: #646c70;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.card-document:hover .card-document-title {
+    color: #dd4400;
+}
+
+@media (min-width: 1680px) {
+    .card-document-thumbnail {
+        margin-right: 15px;
+    }
+
+    .card-document-title {
+        font-size: 17px;
+        line-height: 20px;
+    }
+}

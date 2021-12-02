@@ -1,0 +1,33 @@
+.tooltip {
+    max-width: 85%;
+}
+
+.tooltip.show {
+    opacity: 1;
+}
+
+.tooltip-inner {
+    max-width: 400px;
+    padding: 15px;
+    background-color: #61696b;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    font-size: 15px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.bs-tooltip-top .arrow::before, 
+.bs-tooltip-auto[x-placement^="top"] .arrow::before {
+    border-top-color: #61696b;
+}
+
+.bs-tooltip-bottom .arrow::before, 
+.bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
+    border-bottom-color: #61696b;
+}
+
+@media (min-width: 480px) {
+    .tooltip-inner {
+        padding: 25px;
+    }
+}

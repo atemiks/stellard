@@ -1,0 +1,23 @@
+.product-code-box {
+    margin: 0 0 15px;
+    color: #95a4ab;
+    font-size: 15px;
+}
+
+@media (min-width: 750px) {
+    .product-code-box {
+        margin: 0 0 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .product-code-box {
+        margin: 0 0 5px;
+    }
+}
+
+@media (min-width: 1680px) {
+    .product-code-box {
+        margin: 0;
+    }
+}

@@ -1,0 +1,5 @@
+@media (min-width: 970px) {
+    body.page-home {
+        padding-top: 0;
+    }
+}

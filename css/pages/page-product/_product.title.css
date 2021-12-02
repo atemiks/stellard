@@ -1,0 +1,15 @@
+.product-title {
+    margin: 0 0 12px;
+}
+
+@media (min-width: 970px) {
+    .product-title {
+        margin: 0 0 5px;
+    }
+}
+
+@media (min-width: 1680px) {
+    .product-title {
+        margin: 0 0 15px;
+    }
+}

@@ -1,0 +1,46 @@
+.header-logo-box {
+    width: 44px;
+}
+
+.header-logo-link {
+    display: block;
+    border: none;
+}
+
+.header-logo-img {
+    width: 44px;
+    height: 42px;
+}
+
+@media (min-width: 480px) {
+    .header-logo-box {
+        width: 150px;
+    }
+
+    .header-logo-img {
+        width: 150px;
+        height: 41px;
+    }
+}
+
+@media (min-width: 750px) {
+    .header-logo-box {
+        width: 157px;
+    }
+
+    .header-logo-img {
+        width: 157px;
+        height: 42px;
+    }
+}
+
+@media (min-width: 970px) {
+    .header-logo-box {
+        width: 188px;
+    }
+
+    .header-logo-img {
+        width: 188px;
+        height: 51px;
+    }
+}

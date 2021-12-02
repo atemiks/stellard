@@ -1,0 +1,981 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link rel="stylesheet" href="vendor/bootstrap/v4/css/bootstrap-custom.css">
+    <link rel="stylesheet" href="vendor/swiper/swiper.css">
+    <link rel="stylesheet" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" href="vendor/fancybox/jquery.fancybox.min.css">
+
+	<link rel="stylesheet" href="css/style.css">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="16x16" href="favicon.png">
+
+	<title>Stellard</title>
+</head>
+<body class="page-news" >
+	<div class="wrapper">
+		<div class="content-box">
+			<header class="header-box is-fixed">
+				<div class="container">
+                    <div class="row flex-nowrap flex-md-wrap align-items-center">
+                        <div class="header-offcanvas-col col-auto order-md-0 d-lg-none">
+                            <button class="header-offcanvas-toggle offcanvas-toggle" >
+                                <div class="offcanvas-toggle-inner"></div>
+                            </button>
+                        </div>
+
+                        <div class="header-logo-col col-auto order-md-1 order-lg-3 order-xxl-0">
+                            <div class="header-logo-box">
+                                <a href="home.html" class="header-logo-link">
+                                    <img src="images/logo-xs.svg" class="header-logo-img d-sm-none" alt="Stellard">
+                                    <img src="images/logo-dark.svg" class="header-logo-img d-none d-sm-block" alt="Stellard">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="header-slogan-col col-lg-4 col-xxl-auto order-md-2 order-lg-0 order-xxl-1 d-none d-lg-block">
+                            <div class="header-slogan-box">
+                                Производство и продажа тротуарной плитки 
+                            </div>
+                        </div>
+
+                        <div class="header-catalog-col col-auto order-md-3 order-lg-4 order-xxl-2 d-none d-lg-block">
+                            <div class="header-catalog-box">
+                                <a href="catalog.html" class="header-catalog-link" >
+                                    <i class="icon-catalog" ></i>
+                                    Продукция
+                                </a>
+
+                                <div class="header-megamenu-box">
+                                    <ul class="header-megamenu-nav nav">
+                                        <li class="nav-item">
+                                            <a href="catalog.html" class="nav-link">Тротуарная плитка</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="catalog.html" class="nav-link">Бордюры</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="catalog.html" class="nav-link">Водоотводные каналы</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="catalog.html" class="nav-link">Дорожные плиты</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="catalog.html" class="nav-link">Стеновые блоки</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="header-nav-col col-lg-8 col-xxl order-md-4 order-lg-1 order-xxl-3 d-none d-lg-block">
+                            <nav class="header-navigation">
+                                <ul class="header-nav nav justify-content-end justify-content-xxl-start reset-list">
+                                    <li class="nav-item">
+                                        <a href="production.html" class="nav-link">О заводе</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#link" class="nav-link">Доставка и оплата</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="news.html" class="nav-link">Эксперт в плитке</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="contact.html" class="nav-link">Контакты</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <div class="header-contact-col col col-sm-auto order-md-5 order-lg-5 order-xxl-4 ml-auto">
+                            <div class="header-contact-box d-flex flex-wrap align-items-center justify-content-center">
+                                <a href="tel:+74872521555" class="header-contact">
+                                    <i class="icon-phone-solid d-none d-md-inline-block" ></i>
+                                    <span class="">+7 (4872) 521-555</span>
+                                </a>
+
+                                <a href="https://wa.me/74872521555" class="header-contact header-contact-whatsapp d-none d-md-inline-block">
+                                    <img src="images/icons/svg/icon-whatsapp.svg" alt="whatsapp">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="header-search-col col-auto order-md-7">
+                            <button class="header-search-toggle search-toggle d-flex align-items-center justify-content-center" >
+                                <i class="icon-search" ></i>
+                            </button>
+                        </div>
+
+                        <div class="header-account-col col-auto order-md-6 order-xxl-5">
+                            <div class="header-account-box">
+                                <ul class="header-account-actions reset-list">
+                                    <li class="header-account-action-item d-none d-md-block">
+                                        <a href="favorites.html" class="header-account-action header-account-action-favorites">
+                                            <div class="header-account-action-thumbnail">
+                                                <i class="icon-star" ></i>
+                                                <div class="badge">0</div>
+                                            </div>
+
+                                            <div class="header-account-action-value d-none d-lg-block">Избранное</div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header-account-action-item">
+                                        <a href="cart.html" class="header-account-action header-account-action-cart">
+                                            <div class="header-account-action-thumbnail">
+                                                <i class="icon-bar-bottom" ></i>
+                                                <div class="badge">0</div>
+                                            </div>
+
+                                            <div class="header-account-action-value d-none d-md-block">Мои покупки</div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="w-100 d-none d-lg-block d-xxl-none order-lg-2"></div>
+                    </div>
+                </div>
+			</header>
+
+			<main class="main" >
+                <div class="breadcrumb-box">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                 <nav class="breadcrumb-navigation" aria-label="breadcrumb">
+                                     <ul class="breadcrumb d-flex flex-wrap reset-list">
+                                        <li class="breadcrumb-item">
+                                            <a href="home.html" class="breadcrumb-link">Главная</a>
+                                        </li>
+                                        <li class="breadcrumb-item">
+                                            <a href="news.html" class="breadcrumb-link">Новости</a>
+                                        </li>
+                                        <li class="breadcrumb-item active" aria-current="page">10 рисунков укладки тротуарной плитки Брусчатка и Квадрат</li>
+                                    </ul>
+                                 </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-inner">
+                    <section class="section-promo" style="background-image: url('uploads/section-promo/promo-bg.jpg')" >
+                        <div class="container">
+                            <div class="row">
+                                <div class="promo-media-container col-4 d-none d-md-block align-self-md-end ">
+                                    <figure class="promo-media-figure">
+                                        <img src="uploads/section-promo/promo-media.png" class="promo-media" alt="Эксперт в плитке">
+                                    </figure>
+                                </div>
+
+                                <div class="promo-typography-container col-12 col-md-8">
+                                    <div class="promo-title title-h1">Эксперт в плитке</div>
+                                    <div class="promo-description">
+                                        Не знаете, как подобрать плитку или как ее уложить? Вы этом разделе вы можете пройти “Курс молодого бойца”. После прочтения советов от наших экспертов вы будете подкованы прежде всего в тонкостях именно вашей плитки: каким образом укладывается плитка, какие могут быть вариации в укладке, какой инструмент подойдет лучше всего, особенности эксплуатаци и многое другое. Подтяните свои значия и сосед по участку будет вам завидовать.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="section-news">
+                        <div class="container">
+                            <nav class="news-navigation" >
+                                <div class="news-nav nav nav-tabs">
+                                    <a href="#link" class="nav-item nav-link active">
+                                        Все
+                                        <span class="badge" >11</span>
+                                    </a>
+
+                                    <a href="#link" class="nav-item nav-link">
+                                        Укладка
+                                        <span class="badge" >5</span>
+                                    </a>
+
+                                    <a href="#link" class="nav-item nav-link">
+                                        Как выбрать
+                                        <span class="badge" >2</span>
+                                    </a>
+
+                                    <a href="#link" class="nav-item nav-link">
+                                        Проблемы
+                                        <span class="badge" >5</span>
+                                    </a>
+                                </div>
+                            </nav>
+
+                            <div class="news-grid row">
+                                <div class="news-item col-sm-6 col-lg-4 d-flex">
+                                    <div class="card-info d-flex flex-column align-items-center justify-content-center">
+                                        <div class="card-info-thumbnail">
+                                            <img src="uploads/section-news/info-item-1.png" alt="Главный фактор в выборе плитки - это толщина" class="card-info-media">
+                                        </div>
+
+                                        <div class="card-info-title title-h6">Главный фактор в выборе плитки - это толщина</div>
+                                    </div>
+                                </div>
+
+                                <div class="news-item col-sm-6 col-lg-4 d-flex">
+                                    <a href="article.html" class="card-news card-news-success" style="background-image: url('uploads/section-news/news-item-2.jpg')" >
+                                        <div class="card-news-label">Укладка</div>
+
+                                        <div class="card-news-inner">
+                                            <div class="card-news-title title-h3">10 вариантов укладки тротуарной плитки Старый город</div>
+                                            <div class="card-news-description">Тротуарная плитка давно стала незаменимым элементом в оформлении ландшафта частных домов, дач, парков, городских тротуаров и площадей. Разнообразие форм и […]</div>
+                                            <div class="card-news-read d-none d-md-inline-flex align-items-md-center justify-content-md-center">
+                                                <i class="icon-angle-right" ></i>
+                                            </div>  
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="news-item col-sm-6 col-lg-4 d-flex">
+                                    <a href="article.html" class="card-news card-news-beige" style="background-image: url('uploads/section-news/news-item-3.jpg')" >
+                                        <div class="card-news-label">Укладка</div>
+
+                                        <div class="card-news-inner">
+                                            <div class="card-news-title title-h3">Инструменты и приспособления для укладки тротуарной плитки</div>
+                                            <div class="card-news-description">Укладка тротуарной плитки это достаточно тяжелая и кропотливая работа, отнимающая много сил и времени. Но затраты времени можно значительно уменьшить, […]</div>
+                                            <div class="card-news-read d-none d-md-inline-flex align-items-md-center justify-content-md-center">
+                                                <i class="icon-angle-right" ></i>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="news-item col-sm-6 col-lg-4 d-flex">
+                                    <a href="article.html" class="card-news card-news-beige" style="background-image: url('uploads/section-news/news-item-3.jpg')" >
+                                        <div class="card-news-label">Укладка</div>
+
+                                        <div class="card-news-inner">
+                                            <div class="card-news-title title-h3">Инструменты и приспособления для укладки тротуарной плитки</div>
+                                            <div class="card-news-description">Укладка тротуарной плитки это достаточно тяжелая и кропотливая работа, отнимающая много сил и времени. Но затраты времени можно значительно уменьшить, […]</div>
+                                            <div class="card-news-read d-none d-md-inline-flex align-items-md-center justify-content-md-center">
+                                                <i class="icon-angle-right" ></i>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="news-item col-sm-6 col-lg-4 d-flex">
+                                    <a href="article.html" class="card-news card-news-purple" style="background-image: url('uploads/section-news/news-item-4.jpg')" >
+                                        <div class="card-news-label">Укладка</div>
+
+                                        <div class="card-news-inner">
+                                            <div class="card-news-title title-h3">Купить бордюрный камень дешево – выгодно или нет?</div>
+                                            <div class="card-news-description">Последние годы в Туле очень активно ведется благоустройство общественных объектов, тротуаров. Но есть ряд объектов, на которых подрядчики явно сэкономили, […]</div>
+                                            <div class="card-news-read d-none d-md-inline-flex align-items-md-center justify-content-md-center">
+                                                <i class="icon-angle-right" ></i>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="news-item col-sm-6 col-lg-4 d-flex">
+                                    <div class="card-info d-flex flex-column align-items-center justify-content-center">
+                                        <div class="card-info-thumbnail">
+                                            <img src="uploads/section-news/info-item-2.png" alt="Более 20 видов троутуарной плитки" class="card-info-media">
+                                        </div>
+
+                                        <div class="card-info-title title-h6">Более 20 видов троутуарной плитки</div>
+                                    </div>
+                                </div>
+
+                                <div class="news-item col-sm-6 col-lg-4 d-flex">
+                                    <a href="article.html" class="card-news card-news-khaki" style="background-image: url('uploads/section-news/news-item-5.jpg')" >
+                                        <div class="card-news-label">Укладка</div>
+
+                                        <div class="card-news-inner">
+                                            <div class="card-news-title title-h3">Схемы укладки тротуарной плитки брусчатка и квадрат</div>
+                                            <div class="card-news-description">Выбирая тротуарную плитку нужно учитывать не только ее форму, фактуру и оттенок, но и какой рисунок вы хотите видеть в […]</div>
+                                            <div class="card-news-read d-none d-md-inline-flex align-items-md-center justify-content-md-center">
+                                                <i class="icon-angle-right" ></i>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="news-item col-sm-6 col-lg-4 d-flex">
+                                    <a href="article.html" class="card-news card-news-beige" style="background-image: url('uploads/section-news/news-item-3.jpg')" >
+                                        <div class="card-news-label">Укладка</div>
+
+                                        <div class="card-news-inner">
+                                            <div class="card-news-title title-h3">Инструменты и приспособления для укладки тротуарной плитки</div>
+                                            <div class="card-news-description">Укладка тротуарной плитки это достаточно тяжелая и кропотливая работа, отнимающая много сил и времени. Но затраты времени можно значительно уменьшить, […]</div>
+                                            <div class="card-news-read d-none d-md-inline-flex align-items-md-center justify-content-md-center">
+                                                <i class="icon-angle-right" ></i>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="news-item col-sm-6 col-lg-4 d-flex">
+                                    <a href="article.html" class="card-news card-news-success" style="background-image: url('uploads/section-news/news-item-2.jpg')" >
+                                        <div class="card-news-label">Укладка</div>
+
+                                        <div class="card-news-inner">
+                                            <div class="card-news-title title-h3">10 вариантов укладки тротуарной плитки Старый город</div>
+                                            <div class="card-news-description">Тротуарная плитка давно стала незаменимым элементом в оформлении ландшафта частных домов, дач, парков, городских тротуаров и площадей. Разнообразие форм и […]</div>
+                                            <div class="card-news-read d-none d-md-inline-flex align-items-md-center justify-content-md-center">
+                                                <i class="icon-angle-right" ></i>
+                                            </div>  
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="news-item col-sm-6 col-lg-4 d-flex">
+                                    <a href="article.html" class="card-news card-news-beige" style="background-image: url('uploads/section-news/news-item-3.jpg')" >
+                                        <div class="card-news-label">Укладка</div>
+
+                                        <div class="card-news-inner">
+                                            <div class="card-news-title title-h3">Инструменты и приспособления для укладки тротуарной плитки</div>
+                                            <div class="card-news-description">Укладка тротуарной плитки это достаточно тяжелая и кропотливая работа, отнимающая много сил и времени. Но затраты времени можно значительно уменьшить, […]</div>
+                                            <div class="card-news-read d-none d-md-inline-flex align-items-md-center justify-content-md-center">
+                                                <i class="icon-angle-right" ></i>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="news-item col-sm-6 col-lg-4 d-flex">
+                                    <a href="article.html" class="card-news" style="background-image: url('uploads/section-news/news-item-1.jpg')" >
+                                        <div class="card-news-label">Укладка</div>
+
+                                        <div class="card-news-inner">
+                                            <div class="card-news-title title-h3">Путеводитель в мире плитки</div>
+                                            <div class="card-news-description">А знаете ли вы, что главный фактор подбора плитки, это толщина?  От толщины зависит непосредственное ее применение. Тонкая плитка может использоваться под малопроходимые зоны, а по толстой плитке...</div>
+                                            <div class="card-news-read d-none d-md-inline-flex align-items-md-center justify-content-md-center">
+                                                <i class="icon-angle-right" ></i>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <nav class="pagination-navigation" aria-label="pagination">
+                                <ul class="pagination d-flex flex-wrap justify-content-center justify-content-sm-start reset-list">
+                                    <li class="page-item">
+                                        <a class="page-link" href="catalog.html" aria-label="Previous">
+                                            <i aria-hidden="true" class="icon-angle-left" ></i>
+                                        </a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link active" href="catalog.html" aria-current="page" >1</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="catalog.html">2</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="catalog.html">3</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="catalog.html">4</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="catalog.html">5</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="catalog.html" aria-label="Next">
+                                            <i aria-hidden="true" class="icon-angle-right" ></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </section>
+                </div>
+            </main>
+		</div>
+
+		<footer class="footer-box">
+            <div class="section-get-in-touch">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-get-in-touch-inner col-sm-8 col-md-12 col-xxl-10 offset-sm-2 offset-md-0 offset-xxl-1">
+                            <div class="row align-items-md-center justify-content-xl-between">
+                                <div class="col-lg-3 col-xxl-auto">
+                                    <div class="section-header">
+                                        <div class="section-title title-h2">Свяжитесь <br class="d-none d-lg-block" > с&nbsp;нами</div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 col-lg-3 col-xl-auto">
+                                    <div class="contact-block">
+                                        <div class="contact-subtitle d-none d-lg-block">По номеру телефона</div>
+                                        <a href="tel:+74956633329" class="contact-phone">+7 (495) 663-33-29</a>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 col-lg-3 col-xl-auto">
+                                    <div class="contact-block">
+                                        <label for="form-contact-email" class="contact-subtitle d-none d-lg-block">Оставьте свою почту и мы перезвоним</label>
+                                        <form action="" class="form-contact">
+                                            <div class="form-row">
+                                                <div class="col">
+                                                    <input type="email" class="form-control" id="form-contact-email" required >
+                                                </div>
+
+                                                <div class="col-auto">
+                                                    <button type="submit" >
+                                                        <i class="icon-mail" ></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 col-lg-3 col-xl-auto">
+                                    <div class="contact-block">
+                                        <div class="contact-subtitle d-none d-lg-block">Или свяжитесь с нами по&nbsp;WhatsApp</div>
+                                        <a href="https://wa.me/74872521555" class="btn-whatsapp">
+                                            <img src="./images/icons/svg/icon-whatsapp.svg" alt="whatsapp">
+                                            Написать в WhatsApp
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-main">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-copyright-container col-md-5 col-lg-3">
+                            <div class="footer-copyright-box">
+                                <p>&copy; 2020 stellard.ru - Тротуарная плитка от производителя</p>
+                                <p class="text-muted">Вся информация защищена. При любом копировании материалов - ссылка на сайте обязательна.</p>
+                            </div>
+
+                            <div class="footer-icons-box d-none d-md-block">
+                                <ul class="footer-icons-list row reset-list ">
+                                    <li class="icon-item col-auto">
+                                        <a href="#link" class="icon-link">
+                                            <i class="icon-sitemap" ></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="footer-navigation-container col-md-7 col-lg-6 col-xl-5 col-xxl-5">
+                            <div class="row">
+                                <div class="col-6 col-md-5">
+                                    <div class="footer-nav-box">
+                                        <div class="footer-nav-title">Каталог</div>
+                                        <nav class="footer-navigation">
+                                            <ul class="footer-nav nav">
+                                                <li class="nav-item">
+                                                    <a href="catalog.html" class="nav-link">Тротуарная плитка</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="catalog.html" class="nav-link">Бордюры</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="catalog.html" class="nav-link">Водоотводные каналы</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="catalog.html" class="nav-link">Дорожные плиты</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="catalog.html" class="nav-link">Стеновые блоки</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 col-md-7">
+                                    <div class="footer-nav-box">
+                                        <div class="footer-nav-title">Полезная информация</div>
+                                        <nav class="footer-navigation">
+                                            <ul class="footer-nav nav">
+                                                <li class="nav-item">
+                                                    <a href="production.html" class="nav-link">О заводе</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#link" class="nav-link">Доставка и оплата</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="news.html" class="nav-link">Эксперт в плитке</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="contact.html" class="nav-link">Контакты</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#link" class="nav-link">Политика конфиденциальности</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="footer-contact-container col-lg-3 col-xl-4">
+                            <div class="row d-sm-block d-md-flex">
+                                <div class="col-sm-6 col-md-5 col-lg-12 col-xl-7 col-xxl-6 float-sm-left float-md-none order-xl-0">
+                                    <div class="footer-contact-box">
+                                        <a href="tel:+74872521555" class="footer-contact footer-contact-phone">
+                                            <i class="icon-phone-solid" ></i>
+                                            +7 (4872) 521-555
+                                        </a>
+                                    </div>
+
+                                    <div class="footer-address-box">
+                                        г. Тула, ул. Пржевальского, д. 12
+                                    </div>
+
+                                    <div class="footer-contact-box">
+                                        <a href="mailto:info@stellard.ru" class="footer-contact" >info@stellard.ru</a>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-3 col-lg-12 col-xl-7 col-xxl-6 offset-sm-6 offset-md-0 order-xl-2">
+                                    <div class="footer-social-box">
+                                        <ul class="footer-social-list social-list reset-list">
+                                            <li class="social-item">
+                                                <a href="#link" class="social-link" target="_blank" >
+                                                    <i class="icon-vk" ></i>
+                                                </a>
+                                            </li>
+                                            <li class="social-item">
+                                                <a href="#link" class="social-link" target="_blank" >
+                                                    <i class="icon-facebook" ></i>
+                                                </a>
+                                            </li>
+                                            <li class="social-item">
+                                                <a href="#link" class="social-link" target="_blank" >
+                                                    <i class="icon-instagram" ></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-4 col-lg-12 col-xl-5 col-xxl-6 offset-sm-6 offset-md-0 order-xl-1">
+                                    <div class="footer-develop-box">
+                                        <a href="https://www.diol-it.ru/" class="footer-develop-link" target="_blank" >
+                                            <div class="footer-develop-title">Разработка и продвижение</div>
+                                            <div class="footer-develop-thumbnail">
+                                                <img src="images/logo-diol.svg" alt="Diol-it">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+	</div>
+
+    <div class="offcanvas-box">
+        <div class="offcanvas-header">
+            <div class="offcanvas-account-box">
+                <ul class="offcanvas-account-actions reset-list d-flex flex-wrap align-items-center justify-content-between">
+                    <li class="offcanvas-account-action-item">
+                        <a href="favorites.html" class="offcanvas-account-action offcanvas-account-action-favorites d-flex align-items-center">
+                            <div class="offcanvas-account-action-thumbnail">
+                                <i class="icon-star"></i>
+                                <div class="badge">0</div>
+                            </div>
+
+                            <div class="offcanvas-account-action-value">Избранное</div>
+                        </a>
+                    </li>
+
+                    <li class="offcanvas-account-action-item">
+                        <a href="cart.html" class="offcanvas-account-action offcanvas-account-action-cart d-flex align-items-center">
+                            <div class="offcanvas-account-action-thumbnail">
+                                <i class="icon-bar"></i>
+                                <div class="badge">0</div>
+                            </div>
+
+                            <div class="offcanvas-account-action-value">Мои покупки</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="offcanvas-contact-box d-flex flex-wrap align-items-center justify-content-between">
+                <a href="tel:+74872521555" class="offcanvas-contact">
+                    <i class="icon-phone-solid"></i>
+                    <span>+7 (4872) 521-555</span>
+                </a>
+
+                <a href="https://wa.me/74872521555" class="offcanvas-contact offcanvas-contact-whatsapp">
+                    <img src="images/icons/svg/icon-whatsapp.svg" alt="whatsapp">
+                </a>
+            </div>
+        </div>
+
+        <div class="offcanvas-body">
+            <nav class="offcanvas-navigation">
+                <ul class="offcanvas-nav nav flex-column align-items-start">
+                    <li class="nav-item">
+                        <a href="catalog.html" class="nav-link is-highlighted">
+                            <i class="icon-catalog" ></i>
+                            Продукция
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="production.html" class="nav-link">О заводе</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#link" class="nav-link">Доставка и оплата</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="news.html" class="nav-link">Эксперт в плитке</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="header-search-box search-box">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-11 col-xl-10 offset-xl-1">
+                    <form action="" class="form-search" >
+                        <div class="row">
+                            <div class="col">
+                                <input type="search" class="form-control" placeholder="Что вы хотите найти? |" required >
+                            </div>
+
+                            <div class="col-auto">
+                                <button type="submit" class="btn btn-danger" >
+                                    <i class="icon-search" ></i>
+                                    <span class="d-none d-sm-inline-block">Искать</span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-lg-1 d-none d-lg-block">
+                    <button class="header-search-close search-close d-flex align-items-center justify-content-center ml-auto" >
+                        <i class="icon-close" ></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="modalCallback" tabindex="-1" role="dialog" aria-labelledby="modalCallbackLabel" aria-hidden="true">
+	    <div class="modal-dialog modal-dialog-centered" role="document">
+	        <div class="modal-content">
+	            <div class="modal-header d-block">
+	                <div class="modal-title title-h3" id="modalCallbackLabel">Заявка на расчет проекта</div>
+                    <div class="modal-hint">Оставьте заявку на расчет проекта и наш специалист свяжется с Вами в течение рабочего дня!</div>
+	                
+                    <button type="button" class="close d-flex align-items-center justify-content-center" data-dismiss="modal" aria-label="Close">
+	                    <span aria-hidden="true">
+	                    	<i class="icon-close"></i>
+	                    </span>
+	                </button>
+	            </div>
+
+	            <div class="modal-body">
+	                <form action="" class="form-modal">
+	                	<div class="form-group">
+	                		<label for="form-callback-name" class="form-label" >Ваше имя</label>
+	                		<input type="text" id="form-callback-name" class="form-control" required >
+	                	</div>
+
+	                	<div class="form-group">
+	                		<label for="form-callback-phone" class="form-label" >Телефон</label>
+	                		<input type="tel" id="form-callback-phone" class="form-control" required >
+	                	</div>
+
+                        <div class="form-group">
+	                		<label for="form-callback-message" class="form-label" >Комментарий</label>
+                            <textarea name="" id="form-callback-message" class="form-control" ></textarea>
+	                	</div>
+
+                        <button type="submit" class="btn btn-danger" >Отправить</button>
+	                </form>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+    
+    <div class="modal fade" id="modalOrder" tabindex="-1" role="dialog" aria-labelledby="modalOrderLabel" aria-hidden="true">
+	    <div class="modal-dialog modal-dialog-centered" role="document">
+	        <div class="modal-content">
+	            <div class="modal-header d-block">
+	                <button type="button" class="close d-flex align-items-center justify-content-center" data-dismiss="modal" aria-label="Close">
+	                    <span aria-hidden="true">
+	                    	<i class="icon-close"></i>
+	                    </span>
+	                </button>
+	            </div>
+
+	            <div class="modal-body">
+	                <div class="modal-message text-lead">Товар добавлен <a href="cart.html" class="font-weight-bold" >в&nbsp;корзину</a></div>
+                    
+                    <div class="modal-quantity">
+                        В кол-ве 13.52 м<sup>2</sup>
+                    </div>
+
+                    <div class="form-row flex-column-reverse flex-sm-row">
+                        <div class="col-12 col-sm-auto">
+                            <div class="form-group mb-3 mb-sm-0">
+                                <a href="catalog.html" class="btn btn-dark btn-fluid" >Продолжить покупки</a>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-auto">
+                            <div class="form-group mb-3 mb-sm-0">
+                                <a href="cart.html" class="btn btn-danger btn-fluid" >Оформить заказ</a>
+                            </div>
+                        </div>
+                    </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
+    <div class="modal fade" id="modalFavorite" tabindex="-1" role="dialog" aria-labelledby="modalFavoriteLabel" aria-hidden="true">
+	    <div class="modal-dialog modal-dialog-centered" role="document">
+	        <div class="modal-content">
+	            <div class="modal-header d-block">
+	                <button type="button" class="close d-flex align-items-center justify-content-center" data-dismiss="modal" aria-label="Close">
+	                    <span aria-hidden="true">
+	                    	<i class="icon-close"></i>
+	                    </span>
+	                </button>
+	            </div>
+
+	            <div class="modal-body">
+	                <div class="modal-message text-lead">Товар добавлен <a href="favorites.html" class="font-weight-bold" >в&nbsp;избранное</a></div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
+    <div class="modal fade" id="modalStore" tabindex="-1" role="dialog" aria-labelledby="modalStoreLabel" aria-hidden="true">
+	    <div class="modal-dialog modal-dialog-centered" role="document">
+	        <div class="modal-content">
+	            <div class="modal-header d-block">
+	                <div class="modal-title title-h5" id="modalStoreLabel">Остатки на складах</div>
+	                
+                    <button type="button" class="close d-flex align-items-center justify-content-center" data-dismiss="modal" aria-label="Close">
+	                    <span aria-hidden="true">
+	                    	<i class="icon-close"></i>
+	                    </span>
+	                </button>
+	            </div>
+
+	            <div class="modal-body">
+	                <div class="modal-store-grid store-grid">
+                        <div class="store-item">
+                            <div class="card-store">
+                                <div class="form-row">
+                                    <div class="card-store-typography-container col">
+                                        <div class="card-store-title">Северный склад</div>
+                                        <div class="card-store-address text-muted">г. Тула, ул. Пржевальского, д. 12</div>
+                                    </div>
+
+                                    <div class="card-store-aside-container col-auto">
+                                        <div class="card-store-status">
+                                            <div class="card-store-battery d-flex align-items-center">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </div>
+
+                                            <div class="card-store-quantity">
+                                                15000 м<sup>2</sup>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="store-item">
+                            <div class="card-store">
+                                <div class="form-row">
+                                    <div class="card-store-typography-container col">
+                                        <div class="card-store-title">Южный склад</div>
+                                        <div class="card-store-address text-muted">г. Тула, ул. Пржевальского, д. 12</div>
+                                    </div>
+
+                                    <div class="card-store-aside-container col-auto">
+                                        <div class="card-store-status">
+                                            <div class="card-store-battery d-flex align-items-center">
+                                                <span></span>
+                                            </div>
+
+                                            <div class="card-store-quantity">
+                                                200 м<sup>2</sup>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-info">
+                        Если вам не хватает <a href="javascript:void(0);" data-toggle="modal" data-target="#modalCallback" >оставьте заявку</a> или <img src="images/icons/svg/icon-whatsapp.svg" class="icon-whatsapp" alt="whatsapp"> <a href="https://wa.me/74872521555">напишите нам в WhatsApp</a>
+                    </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
+    <div class="modal fade" id="modalReview" tabindex="-1" role="dialog" aria-labelledby="modalReviewLabel" aria-hidden="true">
+	    <div class="modal-dialog modal-dialog-centered" role="document">
+	        <div class="modal-content">
+	            <div class="modal-header d-block">
+	                <div class="modal-title title-h3" id="modalReviewLabel">Оставить отзыв</div>
+	                
+                    <button type="button" class="close d-flex align-items-center justify-content-center" data-dismiss="modal" aria-label="Close">
+	                    <span aria-hidden="true">
+	                    	<i class="icon-close"></i>
+	                    </span>
+	                </button>
+	            </div>
+
+	            <div class="modal-body">
+	                <form action="" class="form-modal">
+                        <div class="form-group form-row">
+                            <div class="col-auto">
+                                <label for="form-review-rating" class="form-label" >Оценка</label>
+                            </div>
+
+                            <div class="col">
+                                <div class="custom-control custom-rating d-flex align-items-center" id="form-review-rating">
+                                    <input type="radio" value="1" id="form-review-rating-01" class="custom-control-input" name="review-rating">
+                                    <label for="form-review-rating-01" class="custom-control-label">
+                                        <i class="icon-star-solid" ></i>
+                                    </label>
+
+                                    <input type="radio" value="2" id="form-review-rating-02" class="custom-control-input" name="review-rating">
+                                    <label for="form-review-rating-02" class="custom-control-label">
+                                        <i class="icon-star-solid" ></i>
+                                    </label>
+
+                                    <input type="radio" value="3" id="form-review-rating-03" class="custom-control-input" name="review-rating">
+                                    <label for="form-review-rating-03" class="custom-control-label">
+                                        <i class="icon-star-solid" ></i>
+                                    </label>
+
+                                    <input type="radio" value="4" id="form-review-rating-04" class="custom-control-input" name="review-rating">
+                                    <label for="form-review-rating-04" class="custom-control-label">
+                                        <i class="icon-star-solid" ></i>
+                                    </label>
+
+                                    <input type="radio" value="5" id="form-review-rating-05" class="custom-control-input" name="review-rating">
+                                    <label for="form-review-rating-05" class="custom-control-label">
+                                        <i class="icon-star-solid" ></i>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="form-review-name" class="form-label" >Ваше имя</label>
+                                    <input type="text" id="form-review-name" class="form-control" required >
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="form-review-email" class="form-label" >Ваш E-mail</label>
+                                    <input type="email" id="form-review-email" class="form-control" required >
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+	                		<label for="form-review-message" class="form-label" >Текст отзыва</label>
+                            <textarea name="" id="form-review-message" class="form-control" ></textarea>
+	                	</div>
+
+                        <div class="form-group">
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="form-review-attached-files">
+                                <label class="custom-file-label" for="form-review-attached-files">Прикрепить фотографии</label>
+                            </div>
+
+                            <div class="uploads-grid form-row">
+                                <div class="upload-item col-auto">
+                                    <div class="card-upload">
+                                        <button type="button" class="card-upload-remove" >
+                                            <i class="icon-minus" ></i>
+                                        </button>
+
+                                        <div class="card-upload-thumbnail">
+                                            <img src="uploads/attached-files/attached-file-1.jpg" alt="Название файла" class="card-uplaod-media">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="upload-item col-auto">
+                                    <div class="card-upload">
+                                        <button type="button" class="card-upload-remove" >
+                                            <i class="icon-minus" ></i>
+                                        </button>
+                                        
+                                        <div class="card-upload-thumbnail">
+                                            <img src="uploads/attached-files/attached-file-1.jpg" alt="Название файла" class="card-uplaod-media">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-danger" >
+                            <i class="icon-thumb" ></i>
+                            Оставить отзыв
+                        </button>
+	                </form>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
+	<div class="bgs-overlay"></div>
+
+	<script src="vendor/jquery/v3/jquery-3.3.1.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+	<script src="vendor/bootstrap/v4/js/dist/util.js"></script>
+	<script src="vendor/bootstrap/v4/js/dist/modal.js"></script>
+	<script src="vendor/bootstrap/v4/js/dist/tab.js"></script>
+	<script src="vendor/bootstrap/v4/js/dist/tooltip.js"></script>
+	<script src="vendor/bootstrap/v4/js/dist/dropdown.js"></script>
+    <script src="vendor/bootstrap/v4/js/dist/collapse.js"></script>
+    <script src="vendor/swiper/swiper.min.js" ></script>
+    <script src="vendor/select2/select2.min.js" ></script>
+    <script src="vendor/fancybox/jquery.fancybox.min.js"></script>
+
+    <script src="js/initial.js"></script>
+    <script src="js/window_size_helper.js"></script>
+    <script src="js/layout.js"></script>
+    <script src="js/sliders.js" ></script>
+    <script src="js/offcanvas.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/filter.js"></script>
+    <script src="js/product.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>

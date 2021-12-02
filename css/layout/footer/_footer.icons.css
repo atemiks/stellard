@@ -1,0 +1,14 @@
+.footer-icons-list {
+    margin: 0 -10px -15px;
+}
+
+.footer-icons-list .icon-item {
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer-icons-list .icon-link {
+    border: none;
+    font-size: 20px;
+}

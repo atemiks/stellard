@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'Futura';
+    src: url('../../fonts/Futura/FuturaBookC/FuturaBookC.eot');
+    src: url('../../fonts/Futura/FuturaBookC/FuturaBookC.eot#iefix') format('embedded-opentype'),
+    url('../../fonts/Futura/FuturaBookC/FuturaBookC.ttf') format('truetype'),
+    url('../../fonts/Futura/FuturaBookC/FuturaBookC.woff') format('woff'),
+    url('../../fonts/Futura/FuturaBookC/FuturaBookC.svg#FuturaBookC') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('../../fonts/Futura/FuturaLightC/FuturaLightC.eot');
+    src: url('../../fonts/Futura/FuturaLightC/FuturaLightC.eot#iefix') format('embedded-opentype'),
+    url('../../fonts/Futura/FuturaLightC/FuturaLightC.ttf') format('truetype'),
+    url('../../fonts/Futura/FuturaLightC/FuturaLightC.woff') format('woff'),
+    url('../../fonts/Futura/FuturaLightC/FuturaLightC.svg#FuturaLightC') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('../../fonts/Futura/FuturaDemiC/FuturaDemiC.eot');
+    src: url('../../fonts/Futura/FuturaDemiC/FuturaDemiC.eot#iefix') format('embedded-opentype'),
+    url('../../fonts/Futura/FuturaDemiC/FuturaDemiC.ttf') format('truetype'),
+    url('../../fonts/Futura/FuturaDemiC/FuturaDemiC.woff') format('woff'),
+    url('../../fonts/Futura/FuturaDemiC/FuturaDemiC.svg#FuturaDemiC') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../../fonts/icomoon/icomoon.eot');
+    src: url('../../fonts/icomoon/icomoon.eot#iefix') format('embedded-opentype'),
+    url('../../fonts/icomoon/icomoon.ttf') format('truetype'),
+    url('../../fonts/icomoon/icomoon.woff') format('woff'),
+    url('../../fonts/icomoon/icomoon.svg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-alert-dark:before {
+  content: "\e900";
+}
+.icon-angle-left:before {
+  content: "\e901";
+}
+.icon-angle-right:before {
+  content: "\e902";
+}
+.icon-angle-up:before {
+  content: "\e903";
+}
+.icon-angle-down:before {
+  content: "\e904";
+}
+.icon-arrow-left:before {
+  content: "\e905";
+}
+.icon-arrow-right:before {
+  content: "\e906";
+}
+.icon-arrow-up:before {
+  content: "\e907";
+}
+.icon-arrow-down:before {
+  content: "\e908";
+}
+.icon-bar:before {
+  content: "\e909";
+}
+.icon-bar-bottom:before {
+  content: "\e921";
+}
+.icon-calc:before {
+  content: "\e90a";
+}
+.icon-catalog:before {
+  content: "\e90b";
+}
+.icon-catalog-solid:before {
+  content: "\e90c";
+}
+.icon-close:before {
+  content: "\e90d";
+}
+.icon-facebook:before {
+  content: "\e90e";
+}
+.icon-filter:before {
+  content: "\e90f";
+}
+.icon-hammer:before {
+  content: "\e910";
+}
+.icon-info:before {
+  content: "\e911";
+}
+.icon-instagram:before {
+  content: "\e912";
+}
+.icon-mail:before {
+  content: "\e913";
+}
+.icon-minus:before {
+  content: "\e914";
+}
+.icon-payment:before {
+  content: "\e915";
+}
+.icon-phone:before {
+  content: "\e916";
+}
+.icon-phone-solid:before {
+  content: "\e917";
+}
+.icon-play:before {
+  content: "\e918";
+}
+.icon-plus:before {
+  content: "\e919";
+}
+.icon-return:before {
+  content: "\e91a";
+}
+.icon-snow:before {
+  content: "\e91b";
+}
+.icon-star:before {
+  content: "\e91c";
+}
+.icon-star-solid:before {
+  content: "\e91d";
+}
+.icon-thumb:before {
+  content: "\e91e";
+}
+.icon-vk:before {
+  content: "\e91f";
+}
+.icon-warranty:before {
+  content: "\e920";
+}
+.icon-sitemap:before {
+  content: "\f2ff";
+}
+.icon-search:before {
+  content: "\f2eb";
+}
+.icon-check:before {
+  content: "\f17b";
+}

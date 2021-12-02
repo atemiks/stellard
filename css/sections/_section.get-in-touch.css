@@ -1,0 +1,204 @@
+.section-get-in-touch {
+    padding-top: 45px;
+    padding-bottom: 35px;
+    background-color: #61696b;
+    color: #fff;
+}
+
+.section-get-in-touch .section-header {
+    margin-bottom: 40px;
+}
+
+.section-get-in-touch .section-title {
+    position: relative;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section-get-in-touch .section-title::before {
+    content: '\e916';
+    opacity: 0.3;
+    position: relative;
+    margin: 0 0 0 -25px;
+    font-family: 'icomoon';
+    font-size: 68px;
+    vertical-align: middle;
+}
+
+.section-get-in-touch .contact-block {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.section-get-in-touch .contact-block .contact-subtitle {
+    margin: 0 0 10px;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.section-get-in-touch .contact-block .contact-phone {
+    display: inline-block;
+    border: none;
+    color: #fff;
+    font-size: 22px;
+    line-height: 20px;
+}
+
+.section-get-in-touch .contact-block .contact-phone:hover {
+    color: #dd4400;
+}
+
+.form-contact .form-control {
+    height: 45px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 0;
+}
+
+.form-contact button[type='submit'] {
+    cursor: pointer;
+    -webkit-display: flex;
+    -ms-display: flex;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #dd4400;
+    box-shadow: 0 3px 5px rgba(255, 108, 0, 0.4);
+    transition: background-color 300ms ease;
+    color: #fff;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.form-contact button[type='submit']:hover {
+    background-color: #d14000;
+}
+
+@media (min-width: 480px) {
+    .section-get-in-touch {
+        padding-top: 50px;
+        padding-bottom: 35px;
+    }
+
+    .section-get-in-touch .section-header {
+        margin-bottom: 30px;
+    }
+
+    .section-get-in-touch .section-title {
+        font-size: 26px;
+    }
+
+    .section-get-in-touch .section-title::before {
+        position: absolute;
+        top: 0;
+        margin: 0;
+        transform: translateX(-76px);
+        font-size: 74px;
+    }
+}
+
+@media (min-width: 750px) {
+    .section-get-in-touch .section-header {
+        margin-bottom: 35px;
+    }
+}
+
+@media (min-width: 970px) {
+    .section-get-in-touch {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .section-get-in-touch .section-header {
+        margin: 0;
+    }
+
+    .section-get-in-touch .section-title {
+        min-height: 70px;
+        padding-left: 70px;
+        font-size: 28px;
+        line-height: 30px;
+        text-align: left;
+    }
+
+    .section-get-in-touch .section-title::before {
+        transform: translate(-70px, 20px);
+    }
+
+    .section-get-in-touch .contact-block {
+        text-align: left;
+    }
+
+    .section-get-in-touch .contact-block .contact-phone {
+        margin: 20px 0 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .section-get-in-touch {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+
+    .section-get-in-touch .section-header {
+        width: 285px;
+    }
+
+    .section-get-in-touch .section-title {
+        padding-left: 130px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .section-get-in-touch .section-title::before {
+        transform: translate(-140px, 25px);
+        font-size: 155px;
+    }
+
+    .section-get-in-touch .contact-block .contact-phone {
+        margin: 10px 0 0;
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .section-get-in-touch .form-contact {
+        width: 265px;
+    }
+}
+
+@media (min-width: 1680px) {
+    .section-get-in-touch .section-header {
+        width: 375px;
+    }
+
+    .section-get-in-touch .section-title {
+        padding-left: 150px;
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .section-get-in-touch .section-title::before {
+        transform: translate(-160px, 20px);
+    }
+
+    .section-get-in-touch .contact-block .contact-phone  {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .section-get-in-touch .form-contact {
+        width: 380px;
+    }
+}

@@ -1,0 +1,13 @@
+.card-comment {
+    position: relative;
+    margin: 15px 0 0;
+    padding: 0 0 0 10px;
+    border-left: 2px solid #fece2f;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.card-comment-title {
+    margin: 0;
+    font-weight: 700;
+}

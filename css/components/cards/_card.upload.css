@@ -1,0 +1,44 @@
+.card-upload {
+    position: relative;
+    margin: 8px 0;
+}
+
+.card-upload-remove {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9;
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background: none;
+    transform: translate(50%, -50%);
+}
+
+.card-upload-remove i.icon-minus {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #dd4400;
+    color: #fff;
+    font-size: 8px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.card-upload-thumbnail {
+    overflow: hidden;
+    width: 67px;
+    height: 67px;
+    border-radius: 4px;
+}
+
+.card-upload-thumbnail .card-upload-media {
+    width: 100%;
+    border-radius: inherit;
+}

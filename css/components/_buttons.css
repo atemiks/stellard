@@ -1,0 +1,246 @@
+button,
+.btn {
+    transition: background-color 300ms ease;
+}
+
+button:focus,
+.btn:focus {
+    outline: none;
+}
+
+.btn {
+    cursor: pointer;
+    -webkit-display: inline-flex;
+    -ms-display: inline-flex;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    border: none;
+    padding: 10px 13px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 1;
+}
+
+.btn i,
+.btn img {
+    display: inline-block;
+    width: 25px;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.btn-dark {
+    background-color: #61696b;
+    box-shadow: 0 3px 5px rgba(255, 108, 0, 0.4);
+    color: #fff;
+}
+
+.btn-warning {
+    background-color: #ffc953;
+    box-shadow: 0 3px 5px rgba(255, 192, 0, 0.3);
+}
+
+.btn-danger {
+    background-color: #dd4400;
+    box-shadow: 0 3px 5px rgba(255, 108, 0, 0.4);
+    color: #fff;
+}
+
+.btn-danger:hover,
+.btn-danger:focus {
+    background-color: #d14000;
+    color: #fff;
+}
+
+.btn-outline {
+    display: inline-block;
+    border: 2px solid transparent;
+    color: #383f42;
+}
+
+.btn-outline.btn-danger {
+    border-color: #dd4400;
+    background: none;
+}
+
+.btn-outline.btn-danger:hover {
+    color: inherit;
+}
+
+.btn-link {
+    display: inline-block;
+    font-weight: 700;
+}
+
+.btn-link.btn-light {
+    border-bottom-color: #fff;
+}
+
+.btn-link.btn-light:hover {
+    border-bottom-color: transparent;
+}
+
+.btn-lg {
+    padding: 20px 15px;
+    font-size: 17px;
+}
+
+.btn-sm i,
+.btn-sm img,
+.btn-xs i,
+.btn-xs img {
+    width: 11px;
+    margin-right: 5px;
+    font-size: 11px;
+}
+
+.btn-sm {
+    padding: 8px 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.btn-xs {
+    padding: 5px 8px;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 400;
+}
+
+.btn-fluid {
+    width: 100%;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+}
+
+.btn-whatsapp {
+    display: block;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    background-color: #2cb742;
+    transition: background-color 300ms ease;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.btn-whatsapp img {
+    width: 25px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.btn-whatsapp:hover {
+    color: #fff;
+    background-color: #29ad3e;
+}
+
+.btn-tooltip {
+    cursor: pointer;
+    flex: 0 0 20px;
+    width: 20px;
+    height: 20px;
+    margin: 0 0 0 10px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: #ffc953 url('../../images/icons/svg/icon-tooltip.svg') no-repeat center center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    vertical-align: middle;
+}
+
+.btn-play {
+    cursor: pointer;
+    -webkit-display: flex;
+    -ms-display: flex;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 5px solid #ffe09d;
+    border-radius: 50%;
+    background-color: #ffc953;
+    box-shadow: 0 3px 5px rgba(255, 192, 0, 0.3);
+    color: #383f42;
+    font-size: 14px;
+}
+
+.btn-play .icon-play {
+    margin-left: 5px;
+}
+
+.btn-play:hover {
+    border-color: #ffe09d;
+}
+
+@media (min-width: 480px) {
+    .btn {
+        padding: 15px 17px;
+        font-size: 18px;
+    }
+
+    .btn-lg {
+        padding: 21px 17px;
+        font-size: 17px;
+    }
+
+    .btn-sm {
+        padding: 8px 10px;
+        font-size: 15px;
+    }
+
+    .btn-xs {
+        padding: 5px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .btn {
+        padding: 17px 18px;
+    }
+
+    .btn-lg {
+        padding: 21px 17px;
+    }
+
+    .btn-sm {
+        padding: 8px 10px;
+    }
+
+    .btn-xs {
+        padding: 5px;
+    }
+
+    .btn-play {
+        width: 70px;
+        height: 70px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1680px) {
+    .btn {
+        font-size: 20px;
+    }
+
+    .btn-sm,
+    .btn-xs {
+        font-size: 15px;
+    }
+}

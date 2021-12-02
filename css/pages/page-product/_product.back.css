@@ -1,0 +1,19 @@
+.product-back-to-catalog-box {
+    margin: 0 0 8px;
+}
+
+.product-back-to-catalog-box .btn {
+    box-shadow: none;
+}
+
+@media (min-width: 1200px) {
+    .product-back-to-catalog-box {
+        margin: 0 0 12px;
+    }
+}
+
+@media (min-width: 1680px) {
+    .product-back-to-catalog-box {
+        margin: 0 0 18px;
+    }
+}

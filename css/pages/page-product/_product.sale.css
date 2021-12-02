@@ -1,0 +1,27 @@
+.product-sale-box {
+    max-width: 275px;
+}
+
+.product-sale-block {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #8a0000;
+    padding: 12px 12px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 1;
+}
+
+.product-sale-block .product-sale-value {
+    font-weight: 700;
+}
+
+@media (min-width: 1680px) {
+    .product-sale-box {
+        max-width: 415px;
+    }
+
+    .product-sale-block {
+        font-size: 17px;
+    }
+}

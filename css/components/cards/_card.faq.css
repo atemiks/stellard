@@ -1,0 +1,19 @@
+.card-faq {
+    width: 100%;
+}
+
+.card-faq a {
+    border-bottom-color: #fff;
+}
+
+.card-faq a:hover {
+    border-bottom-color: transparent;
+}
+
+.card-faq-thumbnail {
+    flex: 0 0 48px;
+    width: 48px;
+    max-width: 48px;
+    height: 48px;
+    margin-right: 15px;
+}

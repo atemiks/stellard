@@ -1,0 +1,115 @@
+.card-promotion {
+    position: relative;
+    margin: 0 0 10px;
+    padding: 15px 15px 5px;
+    background-color: #f4f7f9;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.card-promotion-close {
+    cursor: pointer;
+    position: absolute;
+    z-index: 9;
+    top: 0;
+    right: 0;
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    color: #929799;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.card-promotion-close:hover {
+    color: #dd4400;
+}
+
+.card-promotion-thumnbail {
+    display: block;
+    margin: 20px 0;
+    border: none;
+}
+
+.card-promotion-title {
+    display: inline-block;
+    margin: 0 10px 5px 0;
+    border: none;
+    color: #383f42;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.card-promotion-order-box {
+    line-height: 30px;
+}
+
+.card-promotion-price-box {
+    position: relative;
+    display: inline-block;
+    padding: 0 15px 0 0;
+}
+
+.card-promotion-price-box::after {
+    content: 'X';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    color: #c1c9cf;
+    font-size: 17px;
+    transform: translateY(-50%);
+    line-height: 17px;
+}
+
+.card-promotion-current-price,
+.card-promotion-total {
+    color: #383f42;
+    font-size: 15px;
+}
+
+.card-promotion-quantity-box {
+    width: 100px;
+}
+
+.card-promotion-quantity-box .custom-number-control {
+    min-height: 40px;
+}
+
+.card-promotion-quantity-box .custom-number-control .custom-number-input {
+    height: 40px;
+}
+
+@media (min-width: 480px) {
+    .card-promotion {
+        margin: 0 0 15px;
+        padding: 15px 15px 10px;
+    }
+
+    .card-promotion-order-box {
+        line-height: 25px;
+    }
+
+    .card-promotion-hint {
+        margin: 0 0 10px;
+    }
+}
+
+@media (min-width: 750px) {
+    .card-promotion {
+        padding: 15px;
+    }
+}
+
+@media (min-width: 1680px) {
+    .card-promotion-thumnbail {
+        margin: 0;
+    }
+
+    card-promotion-quantity-box {
+        width: 110px;
+    }
+}

@@ -1,0 +1,151 @@
+.card-project {
+    display: block;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.card-project-header {
+    position: relative;
+}
+
+.card-project-media {
+    width: 100%;
+}
+
+.card-project-content {
+    padding: 15px 0;
+}
+
+.card-project-description {
+    margin: 0 0 12px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.card-project-area {
+    position: relative;
+    padding-left: 32px;
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.card-project-area::before {
+    content: "\e90c";
+    font-family: 'icomoon';
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+}
+
+
+.card-project-product {
+    -webkit-display: flex;
+    -ms-display: flex;
+    display: flex;
+    width: 100%;
+    padding: 20px 20px 15px;
+    background-color: #fff;
+    line-height: 20px;
+}
+
+.card-project-product-thumbnail {
+    display: block;
+    flex: 0 0 70px;
+    max-width: 70px;
+    width: 70px;
+    margin-right: 10px;
+    border: none;
+    text-decoration: none;
+}
+
+.card-project-product-content {
+    -webkit-align-self: center;
+    -ms-align-self: center;
+    align-self: center;
+}
+
+.card-project-product-title {
+    margin: 0;
+}
+
+.card-project-product-subtitle {
+    margin: 0 0 5px;
+    color: #4a4a4a;
+    font-size: 15px;
+}
+
+@media (min-width: 480px) {
+    .card-project-product {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    .card-project-content {
+        padding: 20px 0;
+    }
+}
+
+@media (min-width: 750px) {
+    .card-project-product {
+        position: relative;
+        margin-top: -40px;
+    }
+}
+
+@media (min-width: 970px) {
+    .card-project-content {
+        max-width: 245px;
+        padding: 15px 0;
+    }
+
+    .card-project-product {
+        margin: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-project-content {
+        max-width: 325px;
+    }
+
+    .card-project-product {
+        position: absolute;
+        left: -20px;
+        bottom: 0;
+        width: 245px;
+    }
+}
+
+@media (min-width: 1680px) {
+    .card-project {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .card-project-content {
+        max-width: none;
+        padding: 20px 0;
+    }
+
+    .card-project-description {
+        margin: 0 0 20px;
+    }
+
+    .card-project-product {
+        left: -50px;
+        width: 255px;
+        font-size: 17px;
+    }
+
+    .card-project-product-thumbnail {
+        flex: 0 0 80px;
+        max-width: 80px;
+        width: 80px;
+        margin-right: 15px;
+    }
+}

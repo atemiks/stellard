@@ -1,0 +1,114 @@
+.section-about {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.section-about .section-title {
+    margin: 0 0 10px;
+}
+
+.section-about .section-description {
+    margin-bottom: 15px;
+}
+
+.section-about .section-description p:last-child {
+    margin-bottom: 0;
+}
+
+.section-about .section-action {
+    font-size: 17px;
+}
+
+.section-about .section-media-figure {
+    margin: 0;
+}
+
+.section-about .section-slider-container {
+    clear: both;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+
+@media (min-width: 480px) {
+    .section-about {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .section-about .section-description {
+        margin-bottom: 10px;
+    }
+
+    .section-about .section-slider-container {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 750px) {
+    .section-about {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .section-about .section-media-figure {
+        margin-bottom: -30px;
+    }
+
+    .section-about .card-news {
+        min-height: 365px;
+    }
+}
+
+@media (min-width: 970px) {
+    .section-about {
+        margin-top: 90px;
+        margin-bottom: 50px;
+    }
+
+    .section-about .section-media-figure {
+        margin-bottom: -50px;
+    }
+    
+    .section-about .section-title {
+        margin: 0 0 15px;
+    }
+
+    .section-about .section-description {
+        max-width: 355px;
+        margin-bottom: 15px;
+    }
+
+    .section-about .section-slider-container {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .section-about {
+        margin-top: 130px;
+        margin-bottom: 50px;
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    .section-about .section-media-figure {
+        max-width: 264px;
+    }
+
+    .section-about .card-news {
+        min-height: 425px;
+    }
+}
+
+@media (min-width: 1680px) {
+    .section-about .section-media-figure {
+        max-width: 295px;
+    }
+}

@@ -1,0 +1,26 @@
+/* .catalog-products-grid {
+    margin-bottom: 15px;
+} */
+
+@media (min-width: 480px) {
+    /* .catalog-products-grid {
+        margin-bottom: 10px;
+    } */
+}
+
+@media (min-width: 970px) {
+    /* .catalog-products-grid {
+        margin-bottom: 0;
+    } */
+}
+
+@media (min-width: 1680px) {
+    /* .catalog-products-grid {
+        margin-bottom: 25px;
+    } */
+    
+    .catalog-products-grid .product-item {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}

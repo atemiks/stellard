@@ -1,0 +1,39 @@
+.card-dealer {
+    width: 100%;
+    padding: 15px 15px 20px;
+    border: 1px solid #383f42;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.card-dealer-title {
+    margin: 0 0 10px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.card-dealer-contact {
+    margin: 0 0 10px;
+}
+
+.card-dealer-contact a {
+    border: none;
+}
+
+.card-dealer-address {
+    margin: 0 0 10px;
+}
+
+@media (min-width: 1200px) {
+    .card-dealer-title,
+    .card-dealer-contact,
+    .card-dealer-address {
+        margin: 0 0 15px;
+    }
+}
+
+@media (min-width: 1680px) {
+    .card-dealer {
+        padding: 25px 25px 30px;
+    }
+}

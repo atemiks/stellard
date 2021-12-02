@@ -1,0 +1,135 @@
+.section-contact {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.contact-tab-content {
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+.contact-tab-content .tab-headline {
+    margin-bottom: 15px;
+}
+
+.section-contact .contact-headline {
+    margin: 0 0 15px;
+}
+
+.section-contact .contact-block {
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.section-contact .contact-block .contact-subtitle {
+    margin: 0 0 5px;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.section-contact .contact-grid {
+    margin-bottom: 10px;
+}
+
+.section-contact .contact-grid .contact-item {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 480px) {
+    .contact-tab-content {
+        padding-top: 25px;
+        padding-bottom: 0;
+    }
+
+    .section-contact .contact-headline {
+        margin: 0 0 20px;
+    }
+
+    .section-contact .contact-grid {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 750px) {
+    .contact-tab-content {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+
+    .contact-tab-content .tab-headline {
+        margin-bottom: 20px;
+    }
+
+
+    .section-contact .contact-grid {
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .section-contact .contact-headline {
+        margin: 0 0 30px;
+    }
+
+    .section-contact .contact-grid {
+        margin-bottom: 50px;
+    }
+
+    .contact-block .contact-working-hours-box {
+        position: relative;
+    }
+
+    .contact-block .contact-working-hours-box::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        width: 100px;
+        height: 1px;
+        margin: 0 20px;
+        background: #cfd2d2;
+        transform: translateX(-50%);
+    }
+}
+
+@media (min-width: 1680px) {
+    .section-contact {
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+
+    .contact-tab-content {
+        padding-top: 45px;
+    }
+
+    .contact-tab-content .tab-headline {
+        margin-bottom: 30px;
+    }
+
+
+    .section-contact .contact-block {
+        font-size: 25px;
+    }
+
+    .section-contact .contact-block .contact-subtitle {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+
+    .section-contact .contact-grid {
+        margin-bottom: 15px;
+    }
+
+    .section-contact .contact-grid .contact-item {
+        margin-bottom: 45px;
+    }
+
+
+    .contact-block .contact-working-hours-box::after {
+        width: 235px;
+    }
+}

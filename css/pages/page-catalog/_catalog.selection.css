@@ -1,0 +1,64 @@
+.catalog-selection-box {
+    margin-bottom: 20px;
+}
+
+.catalog-selection-list {
+    margin: 0 -5px -10px;
+}
+
+.catalog-selection-item {
+    margin: 0 0 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.catalog-selection-button,
+.catalog-selection-reset {
+    position: relative;
+    padding: 5px 11px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f4f7f9;
+    color: #6a6f71;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.catalog-selection-remove,
+.catalog-selection-reset .icon-close {
+    cursor: pointer;
+    position: relative;
+    border: 0;
+    border-radius: 0;
+    background: none;
+    color: #dd4400;
+    font-size: 8px;
+    line-height: 8px;
+    vertical-align: top;
+}
+
+.catalog-selection-remove {
+    margin-left: 5px;
+}
+
+.catalog-selection-remove::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    transform: translate(-50%, -50%);
+}
+
+.catalog-selection-reset {
+    background: none;
+}
+
+.catalog-selection-reset .icon-close {
+    margin-right: 5px;
+}
+
+.catalog-selection-reset:hover {
+    color: #dd4400;
+}
